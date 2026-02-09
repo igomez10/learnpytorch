@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: learnpytorch
+Version: 0.1.0
+Summary: Minimal PyTorch setup with unit tests
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+
+# learnpytorch
+
+Minimal PyTorch setup with unit tests (no notebooks).
+
+## Setup (uv)
+
+```bash
+uv venv --python 3.12
+source .venv/bin/activate
+uv pip install -e ".[dev]"
+```
+
+## Run tests
+
+```bash
+uv run pytest
+```

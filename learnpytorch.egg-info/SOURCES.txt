@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+learnpytorch.egg-info/PKG-INFO
+learnpytorch.egg-info/SOURCES.txt
+learnpytorch.egg-info/dependency_links.txt
+learnpytorch.egg-info/requires.txt
+learnpytorch.egg-info/top_level.txt
+tests/test_torch_core.py
